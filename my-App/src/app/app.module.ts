@@ -4,10 +4,16 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { CreditLimitComponent } from './components/credit-limit/credit-limit.component';
+import { CashComponent } from './components/cash/cash.component';
+import { TransactionComponent } from './components/transaction/transaction.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CreditLimitComponent,
+    CashComponent,
+    TransactionComponent
   ],
   imports: [
     BrowserModule,
