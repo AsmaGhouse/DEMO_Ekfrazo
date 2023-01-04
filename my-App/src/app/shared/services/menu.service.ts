@@ -9,54 +9,14 @@ export class MenuService {
   constructor() { }
   
   MENUITEMS: Menu[] = [
-    { title: 'Dashboard', path: 'dashboard/default', icon: 'home', type: 'link', active: true },
-    {
-      title: 'Products', icon: 'box', type: 'sub', active: false, children: [
-        {
-          title: 'Physical', type: 'sub', children: [
-            { title: 'Product List', path: 'products/physical/product-list', type: 'link' },
-            { title: 'Add Product ', path: 'products/physical/add-product', type: 'link' },
-          ]
-        }
-      ]
-    },
-    {
-      title: 'Sales', icon: 'dollar-sign', type: 'sub', active: false, children: [
-
-        { title: 'Orders', path: 'sales/orders', type: 'link' },
-        { title: 'Transactions', path: 'sales/transactions', type: 'link' },
-
-      ]
-    },
-    {
-      title: 'Masters', icon: 'clipboard', type: 'sub', active: false, children: [
-
-        { title: 'Brandlogo', path: 'masters/brandlogo', type: 'link' },
-        { title: 'Category', path: 'masters/category', type: 'link' },
-        { title: 'color', path: 'masters/color', type: 'link' },
-        { title: 'Tag', path: 'masters/tag', type: 'link' },
-        { title: 'size', path: 'masters/size', type: 'link' },
-        { title: 'User Type', path: 'masters/usertype', type: 'link' },
-
-      ]
-    },
-    {
-      title: 'Users', icon: 'user-plus', type: 'sub', active: false, children: [
-
-        { title: 'User List', path: 'users/list-user', type: 'link' },
-        { title: 'Add User', path: 'users/add-user', type: 'link' },
-
-      ]
-    },
-    { title: 'Reports', path: 'reports', icon: 'bar-chart', type: 'link', active: true },
-    {
-      title: 'Settings', icon: 'settings', type: 'sub', active: false, children: [
-
-        { title: 'Profile', path: 'settings/profile', type: 'link' },
-
-      ]
-    },
-    { title: 'Invoice', path: 'invoice', icon: 'archive', type: 'link', active: true },
-    { title: 'Login', path: 'auth/login', icon: 'log-out', type: 'link', active: true },
+    { title: 'Credit Limit', path: 'credit-limit/credit', icon: 'credit-card', active: false },
+    { title: 'Cash', path: 'cash/cash', icon: 'credit-card', active: true },
+    { title: 'Transaction', path: 'transaction/transaction', icon: 'credit-card', active: false },
+    { title: 'Invoice', path: 'invoice/invoice', icon: 'credit-card', active: false },
+    { title: 'Fleet', path: 'fleet/fleet', icon: 'credit-card', active: false },
+    { title: 'Customer', path: 'customer/customer', icon: 'credit-card', active: false },
+    { title: 'Pay a vendor', path: 'pay-vendor/pay-vendor', icon: 'credit-card', active: false },
+    { title: 'Cards', path: 'cards/cards', icon: 'credit-card', active: false },
+    { title: 'Drivers', path: 'drivers/drivers', icon: 'credit-card', active: false },
   ]
 }

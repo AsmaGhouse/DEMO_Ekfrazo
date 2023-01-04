@@ -1,1 +1,10 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~bootstrap/dist/css/bootstrap.css';
+body{
+    margin: 0;
+}
+app-feather-icon{
+    font-size: small;
+    padding: 20px;
+    color:white;
+}
