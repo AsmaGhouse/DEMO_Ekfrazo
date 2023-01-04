@@ -7,13 +7,25 @@ import { SharedModule } from './shared/shared.module';
 import { CreditLimitComponent } from './components/credit-limit/credit-limit.component';
 import { CashComponent } from './components/cash/cash.component';
 import { TransactionComponent } from './components/transaction/transaction.component';
+import { InvoiceComponent } from './components/invoice/invoice.component';
+import { FleetComponent } from './components/fleet/fleet.component';
+import { CustomerComponent } from './components/customer/customer.component';
+import { PayVendorComponent } from './components/pay-vendor/pay-vendor.component';
+import { CardsComponent } from './components/cards/cards.component';
+import { DriversComponent } from './components/drivers/drivers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreditLimitComponent,
     CashComponent,
-    TransactionComponent
+    TransactionComponent,
+    InvoiceComponent,
+    FleetComponent,
+    CustomerComponent,
+    PayVendorComponent,
+    CardsComponent,
+    DriversComponent
   ],
   imports: [
     BrowserModule,
