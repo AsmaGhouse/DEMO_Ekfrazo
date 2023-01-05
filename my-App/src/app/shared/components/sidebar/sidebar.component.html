@@ -1,9 +1,9 @@
-<div class="sidebar custom-scrollbar">
-   
+<div class="sidebar">
     <ul class="sidebar-menu">
+        <li ><span class="dashboard">Dashboard</span></li>
         <li *ngFor="let menuItem of menuItems" [ngClass]="{active : menuItem.active }" >
-       <a [routerLink]="menuItem.path"> <app-feather-icon [icon]="menuItem.icon"></app-feather-icon>          
-        <span>{{menuItem.title}}</span></a> 
+       <a [routerLink]="menuItem.path"> <app-feather-icon [icon]="menuItem.icon" class="sidemenu-icon"></app-feather-icon>          
+        <span class="title">{{menuItem.title}}</span></a> 
         </li>
     </ul>
 </div>
