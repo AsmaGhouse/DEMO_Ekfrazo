@@ -1,3 +1,38 @@
-mat-form-field{
-    height: fit-content;
+
+.example-header-image{
+    background-color: #0E5E6F;
+}
+.mat-mdc-card {
+    box-shadow: none;
+}
+#set-color{
+    border: 1px solid ghostwhite;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    line-height: 1.6;
+    border-radius: 50%;
+    background: ghostwhite;
+}
+.container-warper{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-warper div{
+    padding:3px;
+}
+.container-warper div:nth-child(2){
+    flex-basis: 76px;
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 500;
+}
+.mat-mdc-card-avatar {
+    height: 31px !important;
+    width: 32px !important;
+}
+.bell-icon {
+    font-size: large !important;
+    vertical-align: -webkit-baseline-middle !important;
 }

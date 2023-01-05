@@ -1,0 +1,33 @@
+.button-row a{
+    color: #0E5E6F !important;
+    font-size: 10px !important;
+    font-weight: 600;
+    float: right;
+    height: 34px;
+    margin-bottom: 10px;
+}
+#upload-icon{
+    border:1px solid;
+    border-radius: 3px;
+    padding: 1px;
+   
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+ 
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+ 
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  
+  

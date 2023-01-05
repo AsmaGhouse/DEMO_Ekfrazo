@@ -16,7 +16,7 @@ app-header .mat-mdc-text-field-wrapper {
    
 }
 app-header .mat-mdc-form-field-has-icon-prefix .mat-mdc-text-field-wrapper {
-    padding-left: 29px !important;
+    padding-left: 10px !important;
 }
 app-header .mat-mdc-text-field-wrapper.mdc-text-field--outlined .mat-mdc-form-field-infix {
     padding-top: 10px;
@@ -24,5 +24,8 @@ app-header .mat-mdc-text-field-wrapper.mdc-text-field--outlined .mat-mdc-form-fi
     font-family: monospace;
 }
 app-header .mat-mdc-form-field-flex {
-    height: 35px;
+    height: 35px !important;
+}
+app-transaction .mdc-button--outlined .mdc-button__ripple {
+    border-color: #88adc9 !important;
 }

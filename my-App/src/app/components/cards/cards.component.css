@@ -1,0 +1,15 @@
+mat-card{
+    border-radius: 10px;
+    border:1px solid #0E5E6F;
+    text-align: right;
+    box-shadow: 2px 2px #0e5e6f;
+    margin: 10px;
+}
+mat-card p{
+    color:rgb(187, 184, 184);
+}
+.add-btn{
+    background-color: #0e5e6f;  
+    color: #fff !important;
+    margin: 2em 2em 0;
+}

@@ -1,0 +1,22 @@
+.active{
+    background-image: url('../../../assets/back-img2.jpg');
+    color: white;  
+}
+mat-card{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 1px #38a89d;
+}
+.c-img{
+    background-image: url('../../../assets/back-img1.webp');
+}
+mat-form-field{
+    width: 100%;
+}
+.vendor-btn{
+    width: 150px;
+    float:right; 
+    background-color: #0e5e6f;  
+    color: #fff !important;
+    margin: 1em 1em 0;
+}

@@ -8,7 +8,8 @@ import { RouterModule } from '@angular/router';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
-
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -21,9 +22,17 @@ import { MatInputModule } from '@angular/material/input';
     RouterModule,
     MatFormFieldModule,
     MatIconModule,
+    MatInputModule,
+    MatCardModule,
+    MatButtonModule
+   ],
+  exports:[
+    FeatherIconComponent,
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule,
+    MatFormFieldModule,
     MatInputModule
-   
-  ],
-  exports:[FeatherIconComponent]
+  ]
 })
 export class SharedModule { }
