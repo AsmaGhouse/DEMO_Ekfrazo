@@ -3,10 +3,11 @@
 <a mat-stroked-button href="https://www.google.com/" target="_blank"><app-feather-icon icon="fa fa-upload" id="upload-icon"></app-feather-icon>    EXPORT</a>
 </div>
 
-    <table>
+    <table>     
         <tr>
             <th *ngFor="let head of data[0].head">{{head |uppercase}}</th>
         </tr>
+    
         <tr *ngFor="let data of data">
             <td>{{data.date}}</td>
             <td>{{data.from}}</td>

@@ -13,3 +13,9 @@ mat-card p{
     color: #fff !important;
     margin: 2em 2em 0;
 }
+.container-fluid h5{
+    margin-left: 10px;
+}
+*{
+    overflow: hidden;
+}

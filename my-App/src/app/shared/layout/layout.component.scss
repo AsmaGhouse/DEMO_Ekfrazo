@@ -2,6 +2,84 @@
 .page-sidebar{
     background-color: #0E5E6F;
     margin: 0;
-    height: 100vh;
+    height: 100vh !important;
     color:white;
+}
+.example-header-image{
+        background-color: #0E5E6F;
+    }
+
+.mat-mdc-card {
+    box-shadow: none;
+    background: transparent;
+}
+mat-card-header.mat-mdc-card-header {
+ padding: 0;
+}
+#set-color{
+    border: 1px solid ghostwhite;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    line-height: 1.6;
+    border-radius: 50%;
+    background: ghostwhite;
+}
+.container-warper{
+   width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-warper div{
+    padding:3px;
+}
+.container-warper div:nth-child(2){
+    flex-basis: 76px;
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 500;
+}
+.mat-mdc-card-avatar {
+    height: 31px !important;
+    width: 32px !important;
+}
+.bell-icon {
+    font-size: large !important;
+}
+.sidenav-content{
+    padding: 20px;
+    height: 100vh;
+    background-color: #fff !important;
+}
+.d-t{
+    display: block !important;
+}
+
+#menu-icon{
+    margin: 0 10px;
+    font-size: larger;
+}
+@media(min-width:20px) and (max-width:766px){
+    #menu-icon{
+        display: block !important;
+    }
+    .s-n{
+        display: none !important;
+    }
+    .example-card{
+        zoom:50%;
+    }
+    
+}
+@media(min-width:767px){
+   #menu-icon{
+        display: none !important;
+    }
+    .s-n{
+        display: block !important;
+    }
+    
+}
+mat-drawer{
+    height: 100vh !important;
 }

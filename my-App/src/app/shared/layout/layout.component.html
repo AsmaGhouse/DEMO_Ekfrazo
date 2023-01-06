@@ -1,13 +1,42 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col col-lg-2 col-md-2 col-sm-2 page-sidebar">
-            <app-sidebar></app-sidebar>
-        </div>
+<mat-drawer-container class="example-container">
+    <mat-drawer #drawer class="example-sidenav page-sidebar s-n" id="sideNav" mode="side" [opened]="sidebarContent">
+        <app-sidebar></app-sidebar>
+    </mat-drawer>
 
-        <div class="col col-lg-10 col-md-10 col-sm-10 page-body">
-            <app-header></app-header>
-            <router-outlet></router-outlet>
-        </div>
+    <div class="sidenav-content" >
+        <mat-card class="example-card">
+            <mat-card-header>
+                <div class="container-warper">
+                    <div>
+                        <app-feather-icon icon="fa fa-bars" (click)="drawer.toggle();OpenNav()"
+                            id="menu-icon" ></app-feather-icon>
+                    </div>
+                    <div>
+                        <i class="fa fa-angle-down" id="set-color"></i>
+                    </div>
+                    <div>
+                        <span>Jhon Doe Manager</span>
+                    </div>
+                    <div>
+                        <div mat-card-avatar class="example-header-image"></div>
+                    </div>
+                    <div>
+                        <app-feather-icon icon="fa fa-bell-o" class="bell-icon"></app-feather-icon>
+                    </div>
+                    <div>
+                        <mat-form-field appearance="outline" id="h-search">
+                            <app-feather-icon icon="fa fa-search" matPrefix></app-feather-icon>
+                            <input matInput placeholder="Search" style="padding-left: 10px;">
+                        </mat-form-field>
+                    </div>
+                    
+                </div>
+            </mat-card-header>
+        </mat-card>
+        <router-outlet></router-outlet>
 
     </div>
-</div>
+
+</mat-drawer-container>
+
+
